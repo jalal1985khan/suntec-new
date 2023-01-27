@@ -1,0 +1,1112 @@
+                                @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+                                * {
+                                    font-family: 'Open Sans', sans-serif;
+                                }
+                                
+                                html,
+                                body {
+                                    padding: 0;
+                                    margin: 0;
+                                    font-family: 'Open Sans', sans-serif;
+                                }
+                                
+                                .txt-main {
+                                    color: #95519e !important;
+                                }
+                                
+                                .wbg-main {
+                                    background-color: #8CDEE2;
+                                }
+                                
+                                .wbg-top {
+                                    background-color: #d5c0d9ae;
+                                }
+                                
+                                .wbg-menu {
+                                    background-color: #FFF;
+                                    height: 80px;
+                                    display: flex;
+                                    /* align-content: center; */
+                                    align-items: center;
+                                    font-size: 18px;
+                                    border-bottom: 1px solid #cccccc;
+                                }
+                                
+                                .navbar {
+                                    --bs-navbar-nav-link-padding-x: 1.0rem !important;
+                                    --bs-nav-link-color: #000 !important;
+                                }
+                                
+                                .nav-link {
+                                    color: black !important;
+                                }
+                                
+                                .nav-link:focus,
+                                .nav-link:hover {
+                                    color: #95519e !important;
+                                }
+                                
+                                .nav-ul {
+                                    text-decoration: none !important;
+                                    list-style: none;
+                                }
+                                
+                                ul.nav-ul {
+                                    line-height: 18px;
+                                }
+                                
+                                li h6:hover {
+                                    color: #913FA1;
+                                }
+                                
+                                .wbg-gr {
+                                    background-color: #529B9A;
+                                }
+                                
+                                .wbg-sun {
+                                    background-color: #913FA1;
+                                }
+                                
+                                .wbg-dark {
+                                    background-color: #666666 !important;
+                                }
+                                
+                                .wbg-gy {
+                                    background-color: #f4f4f4;
+                                }
+                                
+                                .wbg-black {
+                                    background-color: black;
+                                }
+                                
+                                .nav-link {
+                                    font-size: 0.95rem;
+                                }
+                                
+                                #basic-nav-dropdown {
+                                    font-size: 0.95rem;
+                                }
+                                
+                                #seeMoreLink {
+                                    color: #607d8b;
+                                }
+                                
+                                #seeMoreLink:hover {
+                                    color: black;
+                                    font-weight: 400;
+                                }
+                                
+                                .dropdown-menu {
+                                    padding: 1em;
+                                }
+                                
+                                .dropdown-item:hover {
+                                    outline: none;
+                                    box-shadow: none;
+                                    background: none;
+                                }
+                                
+                                .dropdown-item a:hover {
+                                    color: black;
+                                }
+                                
+                                .dropdown-item {
+                                    height: 2em;
+                                    padding-left: 0em;
+                                }
+                                
+                                .dropdown-header {
+                                    font-weight: 600;
+                                    padding-left: 0em;
+                                }
+                                
+                                @media only screen and (min-width: 600px) {
+                                    .eventsNav {
+                                        width: 22em;
+                                        padding-bottom: 1em;
+                                    }
+                                }
+                                
+                                .h_alert {
+                                    width: 80% !important;
+                                    background-color: #BC91C1;
+                                    height: 100px;
+                                }
+                                
+                                .f_content {
+                                    width: 90% !important;
+                                }
+                                
+                                .b_content {
+                                    width: 90% !important;
+                                    height: 550px;
+                                }
+                                
+                                .f_hover {
+                                    width: 209px !important;
+                                    height: 145px;
+                                    padding-top: 31px;
+                                }
+                                
+                                .f_hover:hover #featureIcon3 {
+                                    /* border-radius: 16px; */
+                                    fill: #fff !important;
+                                }
+                                
+                                .f_hover:hover #featureIcon2 {
+                                    /* border-radius: 16px; */
+                                    fill: #fff !important;
+                                }
+                                
+                                .f_hover:hover #featureIcon1 {
+                                    /* border-radius: 16px; */
+                                    fill: #fff !important;
+                                }
+                                
+                                .f_hover:hover {
+                                    background-color: #95519e;
+                                    color: #fff;
+                                    width: 209px !important;
+                                    height: 145px;
+                                    padding-top: 31px;
+                                    border-radius: 20px;
+                                    transition: background 1s, border-radius 1s;
+                                }
+                                
+                                .m-heading {
+                                    font-size: 19px;
+                                    font-weight: 400;
+                                    line-height: 1.2em;
+                                    text-align: start;
+                                    margin-bottom: 40px;
+                                    transition: all 1.5s ease 0s;
+                                }
+                                
+                                .s-heading {
+                                    font-weight: 600;
+                                    text-align: start;
+                                    font-size: 24px;
+                                    line-height: 1.2em;
+                                }
+                                
+                                .s-text {
+                                    font-size: 18px;
+                                    text-align: start;
+                                }
+                                
+                                .slide-wrapper:hover {
+                                    background-image: url(https://www.suntecgroup.com/wp-content/uploads/2022/05/2-bg-new_.png);
+                                }
+                                
+                                .slide-body {
+                                    display: none;
+                                    overflow: hidden;
+                                }
+                                
+                                .section-first:hover .slide-body {
+                                    display: block;
+                                    animation: fade-bottom 0.5s ease-in;
+                                    overflow: hidden;
+                                }
+                                
+                                .section-first:hover .m-heading {
+                                    display: block;
+                                    animation: fade-up 0.5s ease-in;
+                                    overflow: hidden;
+                                }
+                                
+                                .section-first:hover .s-heading {
+                                    display: block;
+                                    animation: fade-up 0.5s ease-in;
+                                    overflow: hidden;
+                                }
+                                
+                                .section-first:hover .slide-btn {
+                                    display: block;
+                                    animation: fade-up 0.5s ease-in;
+                                    overflow: hidden;
+                                }
+                                
+                                .slide-btn {
+                                    background-color: #95519e !important;
+                                    border: 0px !important;
+                                    border-radius: 0px!important;
+                                    width: 250px;
+                                    padding: 11px !important;
+                                }
+                                
+                                .b-btn {
+                                    background-color: #95519e !important;
+                                    border: 0px !important;
+                                    border-radius: 0px!important;
+                                    /* width: 250px; */
+                                    padding: 11px !important;
+                                }
+                                
+                                .w-btn {
+                                    border: 2px solid #fff !important;
+                                    border-radius: 0px!important;
+                                    padding: 11px !important;
+                                    width: 300px;
+                                    background-color: #78d9de00 !important;
+                                }
+                                
+                                .r-btn {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    fill: #96509F;
+                                    color: #96509F;
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+                                    border-radius: 0px 0px 0px 0px;
+                                    text-decoration: none;
+                                    height: auto;
+                                    width: 100%;
+                                    padding: 10px;
+                                }
+                                
+                                .section-first {
+                                    height: 600px;
+                                    width: 410px !important;
+                                    background-color: #c9eff2;
+                                    overflow: hidden;
+                                    margin: 5px;
+                                }
+                                
+                                .show-latam {
+                                    height: 600px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-content: center;
+                                    transition: all 1.5s ease 0s;
+                                }
+                                
+                                .section-first:hover {
+                                    background-color: #78D9DE;
+                                    cursor: pointer;
+                                    background-image: url(https://www.suntecgroup.com/wp-content/uploads/2022/05/2-bg-new_.png);
+                                    height: 600px;
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                @keyframes fade-bottom {
+                                    0% {
+                                        transform: translateY(100px);
+                                        opacity: 1;
+                                    }
+                                    100% {
+                                        transform: translateY(0px);
+                                        opacity: 1;
+                                    }
+                                }
+                                
+                                @keyframes fade-up {
+                                    100% {
+                                        transform: translateY(0px);
+                                        opacity: 1;
+                                    }
+                                    0% {
+                                        transform: translateY(-100px);
+                                        opacity: 1;
+                                    }
+                                }
+                                
+                                .partners {
+                                    width: 200px !important;
+                                }
+                                
+                                .partner-bg {
+                                    background-color: #000000F5;
+                                    background-image: url('/images/lines.png');
+                                    color: #fff;
+                                    height: 200px;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                
+                                .partner-logo {
+                                    height: 159px;
+                                    width: 277px;
+                                    border: 1px solid #eaeaea;
+                                    margin-top: 22px;
+                                }
+                                
+                                .left-opp {
+                                    width: 50% !important;
+                                    height: 340px;
+                                    padding-top: 77px;
+                                    padding-left: 32px;
+                                }
+                                
+                                .m-head {
+                                    font-weight: 300;
+                                    margin-bottom: 40px;
+                                }
+                                
+                                .t-head {
+                                    font-size: 33px;
+                                }
+                                
+                                .right-opp {
+                                    position: absolute;
+                                    right: 100px;
+                                    margin-top: 50px;
+                                }
+                                
+                                .b-box {
+                                    border-style: solid;
+                                    border-color: #FFFFFF;
+                                    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 50%);
+                                    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+                                    border-radius: 27px 27px 27px 27px;
+                                    height: 400px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                }
+                                
+                                .h {
+                                    height: 46px;
+                                }
+                                
+                                .counts {
+                                    width: 70% !important;
+                                }
+                                
+                                .line {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    height: 400px;
+                                }
+                                
+                                .l-border {
+                                    color: #95519e;
+                                    border-top: 4px solid;
+                                    opacity: 1;
+                                }
+                                
+                                svg#idea {
+                                    height: 106px;
+                                    margin-bottom: 26px;
+                                }
+                                
+                                svg#handshake {
+                                    height: 106px;
+                                    margin-bottom: 26px;
+                                }
+                                
+                                svg#groups {
+                                    height: 106px;
+                                    margin-bottom: 26px;
+                                }
+                                
+                                .i_hover {
+                                    padding-left: 30px;
+                                    padding-right: 30px;
+                                }
+                                
+                                .bg-review {
+                                    background-color: #ffff;
+                                    height: 400px;
+                                    border-radius: 28px;
+                                    width: 87%;
+                                    margin-left: 28px;
+                                }
+                                
+                                .r_content {
+                                    /* width: 100% !important; */
+                                    background-image: url(/images/test-background.png);
+                                }
+                                
+                                .t-bg {
+                                    border-top-right-radius: 25px;
+                                    border-top-left-radius: 27px;
+                                    position: absolute;
+                                    top: 172px;
+                                    background: white;
+                                    padding-left: 48px;
+                                    padding-right: 48px;
+                                    padding-top: 17px;
+                                }
+                                
+                                .ts-bg {
+                                    background: #f4f4f4;
+                                    border-top-right-radius: 25px;
+                                    border-top-left-radius: 27px;
+                                    height: 200px;
+                                    padding-left: 35px;
+                                    padding-right: 35px;
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    align-content: center;
+                                }
+                                
+                                img.t_img {
+                                    width: 150px !important;
+                                }
+                                
+                                .solutions {
+                                    width: 80% !important;
+                                }
+                                
+                                .carousel-caption {
+                                    position: absolute;
+                                    right: 15%;
+                                    bottom: 11.25rem !important;
+                                    left: 10% !important;
+                                    padding-top: 0rem;
+                                    bottom: 7rem !important;
+                                    /* padding-bottom: 0.1rem; */
+                                    color: #fff;
+                                    text-align: left !important;
+                                }
+                                
+                                .system {
+                                    background-color: #E9C7E0;
+                                    height: 690px;
+                                    padding: 12px;
+                                }
+                                
+                                .system p {
+                                    line-height: 1.9em;
+                                    padding: 12px;
+                                    text-align: start;
+                                }
+                                
+                                .system-inner {
+                                    background-color: #ffffff96;
+                                    height: 665px;
+                                    padding-top: 45px;
+                                    padding-left: 21px;
+                                    border-radius: 17px;
+                                    padding-right: 21px;
+                                }
+                                
+                                .partner {
+                                    background-color: #F2F2F2;
+                                    padding: 12px;
+                                    height: 690px;
+                                }
+                                
+                                .partner p {
+                                    line-height: 1.9em;
+                                    padding: 12px;
+                                    text-align: start;
+                                }
+                                
+                                .partner-inner {
+                                    background-color: #ffffff96;
+                                    height: 665px;
+                                    padding-top: 45px;
+                                    padding-left: 21px;
+                                    border-radius: 17px;
+                                    padding-right: 21px;
+                                }
+                                
+                                .cloud {
+                                    background-color: #78D9DE;
+                                    padding: 12px;
+                                    height: 690px;
+                                }
+                                
+                                .cloud p {
+                                    line-height: 1.9em;
+                                    padding: 12px;
+                                    text-align: start;
+                                }
+                                
+                                .cloud-inner {
+                                    background-color: #ffffff96;
+                                    height: 665px;
+                                    padding-top: 45px;
+                                    padding-left: 21px;
+                                    border-radius: 17px;
+                                    padding-right: 21px;
+                                }
+                                
+                                .black {
+                                    color: black;
+                                }
+                                
+                                .w {
+                                    width: 50%
+                                }
+                                
+                                .list-inline li a {
+                                    line-height: 29px;
+                                    text-decoration: none;
+                                    list-style: none;
+                                    color: white;
+                                }
+                                
+                                .list-inline li a:hover {
+                                    color: #95519e;
+                                    cursor: pointer;
+                                }
+                                
+                                .list-sitemap li a {
+                                    line-height: 40px;
+                                    text-decoration: none;
+                                    list-style: none;
+                                    color: #000;
+                                    font-size: 23px;
+                                }
+                                
+                                .list-sitemap li a:hover {
+                                    color: #95519e;
+                                    cursor: pointer;
+                                }
+                                
+                                .b-text {
+                                    background-color: #95519e;
+                                    color: #ffff;
+                                    height: auto;
+                                    text-align: start;
+                                    padding: 41px;
+                                    width: 550px;
+                                }
+                                
+                                .pe-text {
+                                    background-color: #95519e;
+                                    color: #ffff;
+                                    height: auto;
+                                    text-align: start;
+                                    padding: 41px;
+                                    width: 700px;
+                                }
+                                
+                                .r-text {
+                                    background-color: #793781;
+                                    color: #ffff;
+                                    height: auto;
+                                    text-align: start;
+                                    padding-top: 41px;
+                                    padding-bottom: 41px;
+                                    padding-left: 41px;
+                                    /* width: 450px; */
+                                }
+                                
+                                .w-text {
+                                    width: 469px;
+                                }
+                                
+                                .c-text {
+                                    background-color: #ffffffcb;
+                                    color: #000;
+                                    height: auto;
+                                    text-align: start;
+                                    padding-top: 41px;
+                                    padding-bottom: 41px;
+                                    padding-left: 41px;
+                                    /* width: 550px; */
+                                }
+                                
+                                .ribbon:before {
+                                    content: '';
+                                    position: absolute;
+                                    width: 20px;
+                                    height: 30px;
+                                    border: 30px solid #008a87;
+                                }
+                                
+                                .b-banner {
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    height: 500px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    ;
+                                }
+                                
+                                .pe-banner {
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    height: 700px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    ;
+                                }
+                                
+                                .f-banner {
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    height: 500px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                }
+                                
+                                .breadcum {
+                                    background: #F1F1F1;
+                                    height: 70px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+                                
+                                .card-icon-left {
+                                    width: 100px !important;
+                                    height: 100px !important;
+                                }
+                                
+                                .c-height {
+                                    height: 130px !important;
+                                    border: 0px !important;
+                                }
+                                
+                                .gra_color {
+                                    background: rgb(80, 59, 157);
+                                    background: linear-gradient(90deg, rgba(80, 59, 157, 1) 1%, rgba(247, 97, 24, 1) 100%);
+                                    display: flex;
+                                    align-content: center;
+                                    flex-direction: column;
+                                    /* flex-wrap: wrap; */
+                                    justify-content: center;
+                                }
+                                
+                                .c_shadow {
+                                    /* height: 490px !important; */
+                                    border: 0px !important;
+                                    box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 28%);
+                                    margin: 10px 10px 10px 10px;
+                                    --e-column-margin-right: 10px;
+                                    --e-column-margin-left: 10px;
+                                    padding: 30px 30px 30px 30px;
+                                }
+                                
+                                .sa_shadow {
+                                    height: 620px !important;
+                                    border: 0px !important;
+                                    box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 28%);
+                                    margin: 10px 10px 10px 10px;
+                                    --e-column-margin-right: 10px;
+                                    --e-column-margin-left: 10px;
+                                    padding: 30px 30px 30px 30px;
+                                }
+                                
+                                .sao_shadow {
+                                    height: 620px !important;
+                                    border: 0px !important;
+                                    box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 28%);
+                                    margin: 10px 10px 10px 10px;
+                                    --e-column-margin-right: 10px;
+                                    --e-column-margin-left: 10px;
+                                    padding: 30px 30px 30px 30px;
+                                    background-color: #eaeaea !important;
+                                }
+                                
+                                .c_body {
+                                    padding: 12px 5px 12px 5px !important;
+                                }
+                                
+                                .center {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                
+                                .middle {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                }
+                                
+                                .right {
+                                    text-align: right;
+                                }
+                                
+                                .f-end {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: flex-end;
+                                }
+                                
+                                .years {
+                                    color: #FF6309;
+                                    font-family: "Open Sans", Sans-serif;
+                                    font-size: 40px;
+                                }
+                                
+                                .years-i {
+                                    font-size: 60px;
+                                }
+                                
+                                .company-bg {
+                                    background-color: #C9C9C9;
+                                }
+                                
+                                .company-h {
+                                    font-weight: 900;
+                                    font-size: 35px;
+                                }
+                                
+                                .company-i {
+                                    font-weight: 400;
+                                    font-size: 25px;
+                                    font-style: italic;
+                                }
+                                
+                                .company-l {
+                                    border-left: 4px solid #FF6208;
+                                }
+                                
+                                .company-img {
+                                    width: 30% !important;
+                                }
+                                
+                                .company-btn {
+                                    width: 150px !important;
+                                    background: black !important;
+                                    border: 0px !important;
+                                    border-radius: 0px !important;
+                                    height: 40px;
+                                }
+                                
+                                .profile.offcanvas.offcanvas-start.show {
+                                    width: 60%;
+                                }
+                                
+                                .pro-img {
+                                    width: 20% !important;
+                                }
+                                
+                                .square {
+                                    color: #ffff;
+                                    height: auto;
+                                    text-align: start;
+                                    padding-left: 241px;
+                                    width: 250px;
+                                    border-top: 4px solid #fff;
+                                    border-bottom: 4px solid #fff;
+                                    border-left: 4px solid #fff;
+                                }
+                                
+                                .square-dark {
+                                    color: #000;
+                                    height: auto;
+                                    text-align: start;
+                                    padding-left: 241px;
+                                    width: 250px;
+                                    border-top: 4px solid #000;
+                                    border-bottom: 4px solid #000;
+                                    border-left: 4px solid #000;
+                                }
+                                
+                                .square-text {
+                                    color: #ffff;
+                                    height: auto;
+                                    text-align: start;
+                                    padding: 0px;
+                                    width: 550px;
+                                    left: -182px;
+                                    position: relative;
+                                }
+                                
+                                .square-text-dark {
+                                    color: #000;
+                                    height: auto;
+                                    text-align: start;
+                                    padding: 0px;
+                                    width: 550px;
+                                    left: -182px;
+                                    position: relative;
+                                }
+                                
+                                .square .lin {
+                                    height: 67px;
+                                    width: 5px;
+                                    flex: 1;
+                                    background-color: #fff;
+                                }
+                                
+                                .square-dark .lin-dark {
+                                    height: 67px;
+                                    width: 5px;
+                                    flex: 1;
+                                    background-color: #000;
+                                }
+                                
+                                .csr-img {
+                                    width: 100%;
+                                }
+                                
+                                .posts {
+                                    border-style: solid;
+                                    border-width: 2px 2px 2px 2px;
+                                    border-color: #903EA0;
+                                    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+                                    margin-top: -14px;
+                                    margin-bottom: 0px;
+                                    border-radius: 17px;
+                                    background: #fff;
+                                }
+                                
+                                .p-posts {
+                                    border-top-left-radius: 12px !important;
+                                    border-top-right-radius: 12px !important;
+                                    border: 0px !important;
+                                }
+                                
+                                .social {
+                                    height: 80px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                }
+                                
+                                svg.icon-back circle {
+                                    fill: white !important;
+                                }
+                                
+                                [class^=ribbon-] {
+                                    position: relative;
+                                    margin-bottom: 0px;
+                                }
+                                
+                                [class^=ribbon-]:before,
+                                [class^=ribbon-]:after {
+                                    content: "";
+                                    position: absolute;
+                                }
+                                
+                                .ribbon-1 {
+                                    background: #ee583a;
+                                    top: 0px;
+                                }
+                                
+                                .ribbon-2 {
+                                    background: #ee583a;
+                                    top: 96px;
+                                }
+                                
+                                .ribbon-1:before {
+                                    height: 0;
+                                    width: 0;
+                                    border-bottom: 56px solid #008A87;
+                                    border-right: 60px solid transparent;
+                                    right: -60px;
+                                }
+                                
+                                .ribbon-2:before {
+                                    height: 0;
+                                    width: 0;
+                                    border-bottom: 56px solid #008A87;
+                                    border-right: 60px solid transparent;
+                                    right: -60px;
+                                }
+                                
+                                .callout {
+                                    padding: 20px;
+                                    margin: 20px 0;
+                                    border: 1px solid #eee;
+                                    border-left-width: 5px;
+                                    border-radius: 3px;
+                                }
+                                
+                                .callout h4 {
+                                    margin-top: 0;
+                                    margin-bottom: 5px;
+                                }
+                                
+                                .callout p:last-child {
+                                    margin-bottom: 0;
+                                }
+                                
+                                .callout code {
+                                    border-radius: 3px;
+                                }
+                                
+                                .callout+.bs-callout {
+                                    margin-top: -5px;
+                                }
+                                
+                                .callout-default {
+                                    border-left-color: #777;
+                                }
+                                
+                                .callout-default h4 {
+                                    color: #777;
+                                }
+                                
+                                .callout-primary {
+                                    border-left-color: #428bca;
+                                }
+                                
+                                .callout-primary h4 {
+                                    color: #428bca;
+                                }
+                                
+                                .callout-success {
+                                    border-left-color: #5cb85c;
+                                }
+                                
+                                .callout-success h4 {
+                                    color: #5cb85c;
+                                }
+                                
+                                .callout-danger {
+                                    border-left-color: #d9534f;
+                                }
+                                
+                                .callout-danger h4 {
+                                    color: #d9534f;
+                                }
+                                
+                                .callout-warning {
+                                    border-left-color: #f0ad4e;
+                                }
+                                
+                                .callout-warning h4 {
+                                    color: #f0ad4e;
+                                }
+                                
+                                .callout-info {
+                                    border-left-color: #5bc0de;
+                                }
+                                
+                                .callout-info h4 {
+                                    color: #5bc0de;
+                                }
+                                
+                                .callout-bdc {
+                                    border-left-color: #29527a;
+                                }
+                                
+                                .callout-bdc h4 {
+                                    color: #29527a;
+                                }
+                                
+                                a.float-right {
+                                    text-decoration: none;
+                                    color: #96509F;
+                                    font-weight: 600;
+                                    font-size: 17px;
+                                }
+                                
+                                @media all and (min-width: 992px) {
+                                    .dropdown-menu {
+                                        width: 13rem;
+                                    }
+                                    .mega-submenu {
+                                        left: 100%;
+                                        top: 0;
+                                        min-width: 25rem;
+                                    }
+                                    .ktm-mega-menu {
+                                        position: static !important;
+                                    }
+                                    .mega-menu {
+                                        left: 0;
+                                        right: 0;
+                                        width: 100%;
+                                    }
+                                    .dropdown-menu li {
+                                        position: relative;
+                                    }
+                                    .dropdown-menu .submenu {
+                                        display: none;
+                                        left: 100%;
+                                        top: 0;
+                                    }
+                                    .dropdown-menu>li:hover>.submenu,
+                                    .dropdown:hover>.dropdown-menu {
+                                        display: block;
+                                    }
+                                }
+                                
+                                .menu-line {
+                                    line-height: 26px;
+                                }
+                                
+                                .demo {
+                                    position: fixed;
+                                    bottom: 15px;
+                                    z-index: 99;
+                                    left: 21px;
+                                    background: #FF6208;
+                                    padding: 11px;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    font-size: 19px;
+                                }
+                                
+                                .demo:hover {
+                                    color: #fff !important;
+                                }
+                                /* .cool-link {
+                                content: '';
+                                display: block;
+                                width: 100px;
+                                border: 2px solid;
+                                transition: width .3s;
+                                border: 2px solid;
+                            }
+                             */
+                                
+                                .pr-text {
+                                    color: black;
+                                }
+                                
+                                .pr-text:hover {
+                                    color: #95519E;
+                                }
+                                
+                                .news-out {
+                                    border: 2px solid #95519E;
+                                    width: 200px;
+                                    padding: 15px;
+                                }
+                                
+                                .news-out:hover {
+                                    width: 100%;
+                                    transition: width .3s;
+                                    border: 2px solid #95519E;
+                                }
+                                
+                                .news-in {
+                                    width: 640px;
+                                }
+                                
+                                .news-img {
+                                    width: 220px;
+                                }
+                                
+                                .blog-img {
+                                    width: 100%;
+                                }
+                                
+                                .blog-padding {
+                                    padding-left: 0px !important;
+                                }
+                                
+                                .blog-desc {}
+                                
+                                .blog-img {
+                                    width: 100%
+                                }
+                                
+                                .desc-text {
+                                    line-height: 21px;
+                                }
+                                /*   card design template start here */
+                                
+                                @media only screen and (max-width: 600px) {
+                                    .ribbon-1 {
+                                        top: -14px !important;
+                                    }
+                                    .r-text {
+                                        width: 80% !important;
+                                    }
+                                    .w-text {
+                                        width: 125%;
+                                    }
+                                }
